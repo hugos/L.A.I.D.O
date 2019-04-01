@@ -27,7 +27,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         super.viewDidLoad()
         
         // Set the view's delegate
-        sceneView.delegate = self
+        sceneView.delegate? = self
         
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
@@ -133,7 +133,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         font = font?.withTraits(traits: .traitBold)
         bubble.font = font
         bubble.alignmentMode = convertFromCATextLayerAlignmentMode(CATextLayerAlignmentMode.center)
-        bubble.firstMaterial?.diffuse.contents = UIColor.orange
+        bubble.firstMaterial?.diffuse.contents = UIColor.purple
         bubble.firstMaterial?.specular.contents = UIColor.white
         bubble.firstMaterial?.isDoubleSided = true
         // bubble.flatness // setting this too low can cause crashes.
