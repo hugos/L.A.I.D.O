@@ -1,4 +1,4 @@
 <h2> Preview </h2>
-<p>This project uses AR and a Machine Learning model, it identifies objects and places 3D labels on them</p>
+<p>L.A.I.D.O uses AR and Machine Learning to identify a variety of different objects and place descriptions on each object with a single screen tap.</p>
 
 ![](laido.jpg)
